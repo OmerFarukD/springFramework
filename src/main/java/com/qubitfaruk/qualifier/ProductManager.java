@@ -14,6 +14,6 @@ public class ProductManager {
     private ProductDal productDal;
 
     public String add(ProductDto productDto){
-        return this.productDal.Add(productDto)+" İş katmanı";
+        return this.productDal.Add(productDto)+" İş katmanı ";
     }
 }
