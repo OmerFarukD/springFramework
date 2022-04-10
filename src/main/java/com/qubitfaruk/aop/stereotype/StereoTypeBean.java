@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class StereoTypeBean {
-    private Long id;
+    private Long id ;
     private String name;
     private String trade;
 }
