@@ -5,7 +5,6 @@ import com.qubitfaruk.ProductDto;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
-import javax.validation.groups.Default;
 
 @Named(value = "businesRules3")
 @ApplicationScoped

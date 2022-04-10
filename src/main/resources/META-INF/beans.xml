@@ -5,4 +5,6 @@
                       http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
        bean-discovery-mode="all">
     <alternatives><class>com.qubitfaruk.alternative.PostgreSqlProductDal</class> </alternatives>
+    <interceptors><class> com.qubitfaruk.aop.interceptor.InterceptorsBusiness</class></interceptors>
+
 </beans>
